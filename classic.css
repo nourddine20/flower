@@ -1,0 +1,578 @@
+/*--------------- start all of element style ------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+.clearfloat{
+    clear: both;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.container hr{
+
+}
+/*--------------- end all of element style ------------*/
+
+
+/******    start  groupe title style  *************/
+
+.groupe_title .title h2{
+    font-size:30px;
+    color: #212E36;
+    text-transform: capitalize;
+}
+.groupe_title .title h2 span{
+    border-bottom: 5px solid #f75d7c;
+}
+
+
+.groupe_title .title p{
+    text-transform:lowercase;
+    color: rgb(95, 93, 93);
+    font-size: 15px;
+    margin-top:10%;
+    letter-spacing: 1px;
+}
+
+.groupe_title{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/************ end groupe title style   ************/
+
+
+
+
+
+/*----------------- start  navbar style ---------------*/
+.navbar{
+    color: white;
+    background-image: url("https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?cs=srgb&dl=pexels-elijah-o%27donnell-4173624.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2%;
+    font-weight: bold;
+    
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+    
+}
+
+.navbar .logo h2{
+    font-size: 30px;
+
+}
+
+.navbar .page_links{
+    float: right;
+    width: 60%;
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   padding-top:10px;
+}
+
+
+
+.navbar .page_links li{
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+
+.navbar .page_links li:hover{
+    border-bottom:3px solid #DD637C;
+    color:#DD637C;
+   
+}
+
+.navbar .main{
+  text-align: center;
+   padding:15%;
+  
+   
+}
+
+.navbar .main h1{
+    font-size: 50px;
+    margin-bottom: 5%;
+    
+}
+.navbar .main h1 span{
+    color:#f75d7c;
+
+}
+
+.navbar .main p{
+    font-size:18px;
+    margin-bottom:10%;
+    color: #cbd7df;
+    text-transform: capitalize;
+}
+
+.navbar .main button{
+    padding: 10px 25px;
+    font-size:18px;
+    background-color: #DD637C;
+    color: white;
+    margin-top:5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.navbar .main button:hover{
+    color: #212E36;
+    background-color:white;
+  
+}
+
+/*----------------- end  navbar style ---------------*/
+
+/*----------------- start  services style ---------------*/
+
+.services .title_service{
+   padding-bottom:10%;
+  
+   
+}
+
+
+.services .service_item{
+    float: left;
+    width:30%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.services .first,.last{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.services .service_item i{
+    color: #212E36;
+   
+}
+
+.services .service_item h3{
+    color: hsl(348, 64%, 63%);
+    margin: 2%;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+/*----------------- start  services style ---------------*/
+
+
+/***************      start   team    *****************/
+
+.team{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    
+}
+
+.team .team_info{
+    margin-top:100px;
+   
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+   
+}
+
+.team .team_info .title_team{
+   width:30%;
+   padding-bottom: 5%;
+   padding-left: 2%;
+}
+
+.team .team_info .box_img{
+    width:158px;
+    border-radius: 5px;
+    box-shadow: rgb(54, 53, 53) 0px 1px 2px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.team .team_info .box_img1{
+    background-image: url("https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team .team_info .box_img2{
+    background-image: url("https://cdn.pixabay.com/photo/2016/02/19/11/23/women-1209678__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team .team_info .box_img3{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/14/10/56/men-1979261__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team .team_info .box_img4{
+
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.team .team_info .box_img .overlay{
+    width: 100%;
+    height:40%;
+    background-color:#000000;
+    opacity:80%;
+    position: absolute;
+    top:120px;
+   display: none;
+   border-bottom-left-radius:5px;
+   border-bottom-right-radius: 5px;
+   
+  
+}
+
+.team .team_info .box_img .overlay span{
+    font-size: 9px;
+    color: #f75d7c;
+    font-weight: bold;
+   
+}
+.team .team_info .box_img .overlay i{
+    color: white;
+}
+.team .team_info .box_img:hover .overlay{
+ display: block;
+  padding-left:2%;
+  padding-top: 2%;
+  
+ 
+}
+
+/****************       end  team      ********************/
+
+
+/***********    start client say style  ***********/
+
+.client_say{
+ 
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/17/17/09/woman-4702060_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+.client_say .title_client_say h2{
+    color: #7e5c63;
+}
+
+.client_say .title_client_say p{
+  
+    margin-top:5%;
+    margin-bottom: 5%;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+.client_say .overlay{
+    background-color: black;
+    opacity:75%;
+    width: 100%;
+    text-align: center;
+    padding:10%;
+}
+
+.client_say .title_client_say h3{
+    color:hsl(348, 64%, 63%);
+    text-transform: uppercase;
+}
+
+
+
+
+
+/***********      end client say style   ***********/
+
+
+/***********      start projects style   ***********/
+
+.projects .title_project{
+    margin-bottom:3%;
+}
+.projects .projects_list{
+     margin-bottom: 2%;
+}
+.projects .projects_list li{
+
+    list-style: none;
+    display: inline-block;
+    margin:20px 10px;
+    border:2px solid #797777;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.projects .projects_list .active{
+    background-color: #f75d7c;
+    border:2px solid #ffffff;
+}
+
+.projects .projects_list .active a{
+    color: white;
+    
+}
+
+.projects .projects_list li a{
+    text-decoration: none;
+    color: #797777;
+
+}
+
+
+.projects .project_item{
+    background-image:url("https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30%;
+   margin:14px;
+    display: inline-block;
+    height:250px;
+    position: relative;
+    border-radius:5px;
+    box-shadow: rgb(53, 52, 52,0.6) 0px 0px 2px 2px;
+
+}
+
+.projects .project_image1{
+
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/18/07/31/bitcoin-3089728__340.jpg");
+}
+
+
+.projects .project_image2{
+
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/29/22/06/light-bulb-4514505__340.jpg");
+}
+
+.projects .project_image3{
+
+    background-image: url("https://cdn.pixabay.com/photo/2020/01/30/21/24/shop-4806610__340.jpg");
+}
+
+.projects .project_image4{
+
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/24/16/36/home-820389__340.jpg");
+}
+
+.projects .project_image5{
+
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/11/19/56/laptop-4840790__340.jpg");
+}
+
+.projects .project_image6{
+
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/29/10/47/animal-company-3047244__340.jpg");
+}
+
+
+.projects .project_item:hover .back{
+
+    display: block;
+   
+}
+
+.projects .project_item .back{
+    background-color: #DD637C;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 90%;
+    border-radius:5px;
+}
+
+.projects .project_item .back button{
+    
+    display: block;
+    margin: auto;
+    margin-top:35%;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    border:3px solid white;
+    cursor: pointer;
+}
+
+.projects .project_item .back i{
+
+    position: absolute;
+    bottom:10px;
+    right:45px;
+   color: white;
+   cursor: pointer;
+   
+    
+}
+.projects .project_item .back span{
+
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+/***********      end projects style   ***********/
+
+
+/***********       start  footer   ****************/
+
+footer{
+   background-color: #212E36;
+   padding-bottom: 2%;
+}
+
+footer .footer_box{
+
+   float: left;
+    width: 20%;
+    margin: 2%;
+    color: rgb(122, 121, 121);
+}
+
+footer .footer_box h4{
+    margin-top:10%;
+    margin-bottom:10%;
+    color: rgb(190, 190, 190);
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+
+footer .footer_box i{
+    margin-top:25%;
+    border: 2px solid rgb(122, 121, 121);
+    padding: 10px;
+    margin:50px auto;
+    cursor: pointer;
+}
+
+footer .footer_box .fa-facebook-f:hover{
+
+    background-color: #1687d8;
+    color: white;
+}
+
+footer .footer_box .fa-twitter:hover{
+
+    background-color:#3eadf1;
+    color: white;
+    
+}
+
+footer .footer_box .fa-google-plus-g:hover{
+
+    background-color:#D64834;
+    color: white;
+}
+
+footer .tags .tags_list li{
+    display: inline-block;
+    border: 2px solid rgb(122, 121, 121);
+    padding: 5px 10px;
+    margin:10px;
+}
+
+footer .tags .tags_list li:hover{
+    background-color: rgb(92, 91, 91);
+}
+
+footer .tags .tags_list li:hover a{
+    color: whitesmoke;
+}
+
+footer .tags .tags_list li a{
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color:  rgb(122, 121, 121);
+}
+
+footer .posts .post_item{
+   
+   margin-top: 10%;
+   cursor: pointer;
+}
+
+footer .posts .post_item:hover{
+    background-color: rgb(92, 91, 91);
+    color: whitesmoke;
+}
+
+footer .posts .post_item img{
+    float: left;
+   
+}
+
+footer .posts .post_item h5{
+    float: left;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+footer .posts .post_item span{
+
+    text-transform: capitalize;
+    font-size:9px;
+    display: block;
+    text-align: right;
+    padding-top:15%;
+    color:rgb(190, 190, 190);
+}
+
+footer .blog_category span{
+    cursor: pointer;
+    
+}
+
+footer .blog_category hr{
+    margin-bottom: 5%;
+}
+
+footer p{
+    color: rgb(146, 145, 145);
+    text-align: left;
+   
+}
+
+/************     end footer  ********************/
